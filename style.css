@@ -30,6 +30,22 @@ html {
   }
 }
 
+/* ===== Accessibility ===== */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* ===== Components ===== */
 .icon-square {
   width: 3rem;
