@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4c68;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00bfff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Heart shape -->
+  <path d="M50 88 C25 65, 0 50, 0 30 C0 14, 12 2, 27 2 C36 2, 44 7, 50 15 C56 7, 64 2, 73 2 C88 2, 100 14, 100 30 C100 50, 75 65, 50 88Z" fill="url(#grad)"/>
+  <!-- Paw pad (center) -->
+  <ellipse cx="50" cy="52" rx="10" ry="9" fill="white" opacity="0.9"/>
+  <!-- Paw toes -->
+  <ellipse cx="35" cy="38" rx="7" ry="6" fill="white" opacity="0.9"/>
+  <ellipse cx="50" cy="33" rx="7" ry="6" fill="white" opacity="0.9"/>
+  <ellipse cx="65" cy="38" rx="7" ry="6" fill="white" opacity="0.9"/>
+</svg>
