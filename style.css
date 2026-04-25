@@ -103,3 +103,34 @@ html {
     row-gap: 1.5rem;
   }
 }
+
+/* ===== Print Styles ===== */
+@media print {
+  .gradient-background {
+    background: none !important;
+    animation: none !important;
+    color: #000 !important;
+  }
+
+  .btn {
+    display: none !important;
+  }
+
+  .skip-link {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+}
